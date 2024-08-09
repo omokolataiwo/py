@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-
+const list = [];
 const fn = () => {
     let items = [];
 
@@ -18,6 +18,6 @@ app.get('/', (req, res) => {
 const port = 3090;
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}/`);
-    fn();
+    // fn();
     console.log('continue');
 });
