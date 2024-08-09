@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
     res.send(list);
 });
 
-const port = 8080;
+const port = 3000;
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}/`);
     fn();
